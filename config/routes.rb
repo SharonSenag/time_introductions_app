@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'time/:when' => 'time#time_now'
+  get 'introduce/:name1/and/:name2' => 'introduction#name'
 end
